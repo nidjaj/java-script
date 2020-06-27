@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<script>
+			function f1(){
+				/*var t=document.getElementById("tf1").value;
+				document.getElementById				("tf1").value=document.getElementById("tf2").value;
+				document.getElementById("tf2").value=t;*/
+				var p1=document.getElementById("tf1");
+				var p2=document.getElementById("tf2");
+				var t=p1.value;
+				p1.value=p2.value;
+				p2.value=t;
+			}
+		</script>
+	</head>
+	<body>
+		<form>
+			<input id="tf1" type="text" value="matrix" /><br />
+			<input id="tf2" type="text" value="computers" /><br />
+			<button type="button" onClick="f1()">Swap</button>
+		</form>
+	</body>
+</html>
