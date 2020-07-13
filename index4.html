@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>my website</title>
+	<script type="text/javascript">
+		function f1(){
+             var t=document.getElementById('t1').value;
+             document.getElementById('t1').value=document.getElementById('t2').value;
+             document.getElementById('t2').value=t;
+         }
+	</script>
+</head>
+<body>
+   <form>
+   	<input id="t1" type="text" value="matrix">
+   	<input id="t2" type="text" value="computer">
+   	<button type="button" onclick="f1()">swap</button>
+   </form>
+</body>
+</html>

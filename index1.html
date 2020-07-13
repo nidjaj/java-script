@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>matrix website</title>
+	<script type="text/javascript">
+		function show() {
+			alert(document.anchors.length);
+			alert(document.links.length);
+			alert(document.anchors[0].name);
+			alert(document.links[0].href);
+		}
+	</script>
+</head>
+<body>
+   <a name="c1">chapter1</a>
+   <a name="c2">chapter2</a> 
+   <a name="c3">chapter3</a>
+   <a href="a.html">chapter2</a>
+   <a href="chapter3">chapter3</a>
+<button onclick="show()">click</button>
+</body>
+</html>
